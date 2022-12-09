@@ -1,0 +1,32 @@
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6278f7;
+    height: 120px;
+}
+
+.lista-icones-rodape ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.lista-icones-rodape ul li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px;
+
+}
+.lista-icones-rodape ul li a img:hover{
+    background-color: #101e72;
+    border-radius: 15px;
+
+}
+
+.descricao-rodape{
+    color: #fff;
+    font-size: .8em;
+}
